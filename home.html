@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkiGear</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- header -->
+    <div class="wrapper">
+        <header>
+            <a href="home.html"><img src="assets/logo/logo.svg" alt="" /></a>
+
+            <input type="checkbox" id="burger">
+            <label for="burger"></label>
+
+            <div class="menu_nav">
+                <nav>
+                    <a href="home.html">Главная</a>
+                    <a href="catalog.html">Каталог</a>
+                    <a href="home.html#about">О бренде</a>
+                    <a href="home.html#news">Новости</a>
+                    <a href="#contacts">Контакты</a>
+
+                    <div class="header-icons">
+                        <a href="bag.html"><img src="assets/icons/bag.svg" alt="" /></a>
+                        <a href=""><img src="assets/icons/favourite.svg" alt="" /></a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+    </div>
+    <!-- header end -->
+
+    <!-- mainscreen -->
+    <div class="home-mainscreen">
+        <div class="wrapper">
+            <div class="home-mainscreen-img">
+                <img src="assets/img/home-mainscreen.png" alt="">
+                <div class="home-mainscreen-content">
+                    <h1>покоряйте снежные вершины в нашей экипировке</h1>
+                    <form action="catalog.html">
+                        <button class="btn">Перейти в каталог</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- mainscreen end -->
+
+    <!-- categories -->
+    <div class="home-categories py">
+        <div class="wrapper">
+            <h2>категории</h2>
+            <div class="home-categories-flex">
+                <div class="home-category">
+                    <img src="assets/img/home-category1.png" alt="">
+                    <h3>одежда</h3>
+                </div>
+                <div class="home-category">
+                    <img src="assets/img/home-category2.png" alt="">
+                    <h3>лыжи и сноуборды</h3>
+                </div>
+                <div class="home-category">
+                    <img src="assets/img/home-category3.png" alt="">
+                    <h3>защита</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- categories end -->
+
+    <!-- news -->
+    <div class="home-news py" id="news">
+        <div class="wrapper">
+            <h2>новости</h2>
+            <div class="home-news-flex">
+                <div class="new">
+                    <img src="assets/img/home-new1.png" alt="" class="new-img">
+                    <p>20.02.2024</p>
+                    <h3>новая коллекция</h3>
+                    <a href="" class="btn-secondary">Читать <img src="assets/icons/arrow-right-orange.svg" alt=""></a>
+                </div>
+                <div class="new">
+                    <img src="assets/img/home-new2.png" alt="" class="new-img">
+                    <p>20.02.2024</p>
+                    <h3>С ЗАБОТОЙ О ПЛАНЕТЕ</h3>
+                    <a href="" class="btn-secondary">Читать <img src="assets/icons/arrow-right-orange.svg" alt=""></a>
+                </div>
+                <div class="new">
+                    <img src="assets/img/home-new3.png" alt="" class="new-img">
+                    <p>20.02.2024</p>
+                    <h3>ОТКРЫТИЕ МАГАЗИНА В Г. КАЗАНЬ</h3>
+                    <a href="" class="btn-secondary">Читать <img src="assets/icons/arrow-right-orange.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- news end -->
+
+    <!-- about -->
+    <div class="home-about wrapper py" id="about">
+        <div class="home-about-img">
+            <div class="home-about-img-logo">
+                <img src="assets/logo/logo.svg" alt="">
+                <div class="line"></div>
+            </div>
+            <img src="assets/img/home-about.png" alt="" class="home-about-photo">
+        </div>
+        <div class="home-about-text">
+            <p>SkiGear – это не просто магазин, это путеводитель в мир снежных вершин и волнующих спусков</p>
+            <p>Мы гордимся тем, что предлагаем только самые высококачественные товары, которые не только соответствуют
+                самым строгим стандартам безопасности, но и подчеркивают ваш индивидуальный стиль и предпочтения на
+                склонах.</p>
+            <p>Присоединяйтесь к нам!</p>
+        </div>
+
+    </div>
+    <!-- about end -->
+
+    <!-- form -->
+    <div class="home-form wrapper py">
+        <div class="home-form-textblock">
+            <h2>есть вопросы? оставьте заявку на консультацию</h2>
+            <form>
+                <input type="text" placeholder="Ваше имя">
+                <input type="text" placeholder="E-mail">
+                <button type="submit">Оставить заявку</button>
+            </form>
+        </div>
+        <div class="home-form-img">
+            <img src="assets/img/home-form.png" alt="">
+        </div>
+    </div>
+    <!-- form end -->
+
+    <!-- footer -->
+    <footer>
+        <div class="footer wrapper py" id="contacts">
+            <div class="footer-logo">
+                <img src="assets/logo/logo-footer.svg" alt="" />
+                <a href="tel:+78432434343">
+                    <p><span>Телефон:</span> 8 (843) 243 43 43</p>
+                </a>
+                <a href="mailto:mysneak@gmail.com">
+                    <p><span>Почта:</span> skigear@gmail.com</p>
+                </a>
+                <p><span>Адрес:</span> г. Казань, ул. Большая Красная, 34</p>
+            </div>
+            <div class="footer-nav">
+                <a href="home.html">Главная</a>
+                <a href="catalog.html">Каталог</a>
+                <a href="home.html#about">О бренде</a>
+                <a href="home.html#news">Новости</a>
+            </div>
+            <div class="footer-socials">
+                <p>Мы в соцсетях:</p>
+                <div class="socials">
+                    <a href=""><img src="assets/icons/telegram.svg" alt="" /></a>
+                    <a href=""><img src="assets/icons/vk.svg" alt="" /></a>
+                    <a href=""><img src="assets/icons/whatsapp.svg" alt="" /></a>
+                </div>
+            </div>
+            <div class="footer-arrow">
+                <a href="#"><img src="assets/icons/arrow-toup.svg" alt="" /></a>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+</body>
+
+</html>
